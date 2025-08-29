@@ -18,7 +18,6 @@ Escrever
     [Arguments]  ${LOCATOR}  ${Text}
     ${input_locator}= Find Element with Self Healing  ${LOCATOR}
     Input Text  ${input_locator}  ${Text}
-#
 Clicar
     [Arguments]  ${LOCATOR}
     ${buttom_locator}= Find Element with Self Healing  ${LOCATOR}
